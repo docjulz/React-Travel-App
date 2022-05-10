@@ -1,14 +1,14 @@
 export default [
     {
         id: 1,
-        title: "Mount Fuji",
-        location: "Japan",
-        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        startDate: "12 Jan, 2021",
-        endDate: "24 Jan, 2021",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        freeParking: no,
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        title: "Strands Beach",
+        location: "Dana Point",
+        googleMapsUrl: "https://goo.gl/maps/nDFYdjq5d1H3yS9N9",
+        startDate: "June 1, 2022",
+        endDate: "June 5, 2022",
+        description: "Dana Strand Beach is a public beach at the base of a gated housing development in Dana Point called “The Strand.” These are huge beachfront and hillside homes just north of the Dana Point Headlands that face southwest. The beach here is a nice sandy sunbathing spot that is also popular with surfers.",
+        freeParking: "yes",
+        imageUrl: "https://source.unsplash.com/LLsm5M0PKho"
         
     },
     {
@@ -19,18 +19,18 @@ export default [
         startDate: "May 9, 2022",
         endDate: "May 12, 2022",
         description: "Salt Creek Beach Park is a popular surfing location. A small, offshore reef creates some of the best left swells along the entire coastline. Swimming, body surfing, sunbathing and tidepool exploration (all tidepool inhabitants are protected) are other beach activities.",
-        freeParking: no,
+        freeParking: "no",
         imageUrl: "https://source.unsplash.com/J8dGw1ogfN0"
     },
     {
         id: 3,
-        title: "Mount Fuji",
-        location: "Japan",
-        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        startDate: "12 Jan, 2021",
-        endDate: "24 Jan, 2021",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        freeParking: no,
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        title: "Killer Dana",
+        location: "Dana Point",
+        googleMapsUrl: "https://goo.gl/maps/Gm5W1hrSdgmAMnRH6",
+        startDate: "June 1, 2022",
+        endDate: "June 5, 2022",
+        description: "Killer Dana was once considered as one of Southern California's premier point break surf spots. Situated along the coastal communities of Laguna Beach, Dana Point and San Clemente, it rose to popularity as a challenging break for a tight-knit group of surfers who relished the occasional massive rights and treacherous powerful waves that rose from deep water and broke onto the rocks that lined up the beach. Thus produced the Killer Dana namesake and reputation.",
+        freeParking: "yes",
+        imageUrl: "https://source.unsplash.com/fCzbASSQxz0"
     },
 ]

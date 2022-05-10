@@ -7,7 +7,9 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 11px;
+    background-color: #EEF2F9
 }
+
 
 /* HEADER SECTION*/
 .header__container {
@@ -17,7 +19,6 @@ body {
     background-color: #0089BA;
     gap: .5rem;
     margin-bottom: 50px;
-    
 }
 .header__img {
     padding: 1rem 0;
@@ -25,8 +26,9 @@ body {
 }
 .header__title {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
 }
+
 
 /* CARD SECTION */
 .card__container {
@@ -35,16 +37,25 @@ body {
     gap: 1rem;
     align-items: center;
     max-width: 700px;
-   
-    
 }
-
+.card__container-img {
+    position: relative;
+}
 .card__img {
     width: 125px;
     height: 168px;
     border-radius: 5px;
-    object-fit: cover
-    /* margin-bottom: 20px; */
+    object-fit: cover;
+}
+.card__badge {
+    position: absolute;
+    bottom: 6px ;
+    left: 6px;
+    background-color: #0089BA;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: 300;
+    color: #ffffff;
 }
 .card__icon {
     color: #0089BA;
@@ -52,7 +63,7 @@ body {
 }
 .card__location {
     padding-right: .5rem;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .card__map {
     color: #918E9B;
@@ -62,25 +73,13 @@ body {
     margin: .25rem 0;
     padding-right: .5rem;
     font-size: 25px;
+    color: #064C64;
 }
 
 .card__dates {
-
     font-weight: 700;
 }
-.card__body {
-    
-}
 .card__divider {
-    border-bottom: 1px solid #0089BA;
+    border-bottom: 1px solid #79CEEC;
     padding: 1rem 0;
-}
-.card--badge {
-    position: absolute;
-    bottom: 6px;
-    left: 6px;
-    background-color: white;
-    padding: 5px 7px;
-    border-radius: 2px;
-    font-weight: bold;
 }

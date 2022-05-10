@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER SECTION*/
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    gap: .5rem;
+}
+.header__img {
+    padding: 1rem 0;
+    max-width: 84px;
+}
+.header__title {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/* CARD SECTION */
+.card__img {
+    width: 125px;
+}
